@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/index.css">
+        <script type="module" src="/js/index.js"></script>
+    </head>
+    <body>
+        <!--<%= title %>-->
+        <nav>
+            <div id="title">RNAFold</div>
+            <div id="project_container">
+                <div id="new_project" class="button">+ New Project</div>
+                <div id="saves">
+                    <!--<div class="selected">Save 1</div>
+                    <div>Save 2</div>-->
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div id="upload" class="button">+ Upload RNA</div>
+            <!--<div id="new" class="button">new RNA</div>-->
+        </header>
+        <main>
+            <div id="RNA_list"></div>
+        </main>
+    </body>
+    <template id="template_row">
+        <div class="row">
+            <div class="RNA_id"></div>
+            <div class="RNA_title">Sequence</div>
+            <pre class="RNA_sequence"></pre>
+            <div class="RNA_title">Structure</div>
+            <pre class="RNA_structure"></pre>
+            <div class="RNA_title">Stats</div>
+            <div class="RNA_summary">
+                <div class="RNA_energy"></div>
+                <div class="RNA_basePairCount"></div>
+                <div class="RNA_pairedNucleotideCount"></div>
+                <div class="RNA_unpairedNucleotideCount"></div>
+                <div class="RNA_length"></div>
+            </div>
+        </div>
+    </template>
+</html>
