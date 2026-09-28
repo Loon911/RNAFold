@@ -4,8 +4,12 @@ RNAFold Explorer is a local, high-throughput interface for predicting and explor
 
 The project is designed to make large batches of RNA folding results usable while they are still being calculated. Results stream into the browser, are saved locally as NDJSON, and are displayed through a virtualized interface that keeps the number of DOM elements small.
 
+## Project purpose
+
+RNAFold Explorer is a self-directed portfolio and university-preparation project created while preparing to apply for biotechnology studies at ETH Zurich. Its purpose is to explore how software engineering can be applied to bioinformatics and scientific computing, while demonstrating the ability to design a responsive interface and scalable local processing architecture around an established scientific library.
+
 > [!IMPORTANT]
-> This is a computational research and demonstration tool. Its output is a model-based prediction, not an experimentally verified structure or biological annotation.
+> This is an experimental portfolio and research-demonstration project, not production software. It has not undergone the scientific validation, security review, reliability testing, or operational hardening required for clinical, commercial, or public production use. Its output is a model-based prediction, not an experimentally verified structure or biological annotation.
 
 ## What it predicts
 
